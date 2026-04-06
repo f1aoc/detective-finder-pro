@@ -2,7 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import LeadForm from "@/components/LeadForm";
-import { getDetectiveBySlug, detectives, slugifyDetective } from "@/data/detectives";
+import { getDetectiveBySlug } from "@/data/detectives";
 import { MapPin, Phone, Mail, Globe, Star, BadgeCheck, Building2, Calendar, Crown, ChevronRight } from "lucide-react";
 
 const AgencePage = () => {

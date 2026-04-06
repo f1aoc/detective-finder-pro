@@ -6,7 +6,6 @@ import DetectiveCard from "@/components/DetectiveCard";
 import {
   getVilles, getDepartements, getRegions,
   getDetectivesByVille, getDetectivesByDepartement, getDetectivesByRegion,
-  getDetectivesBySpecialite, besoins,
 } from "@/data/detectives";
 import { ChevronRight } from "lucide-react";
 
